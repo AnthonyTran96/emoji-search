@@ -1,6 +1,6 @@
 import Title from "../../components/Title";
 import Search from "../../components/Search";
-import Emojis from "../../components/Emojis";
+import EmojiList from "../../components/EmojiList";
 import classNames from "classnames/bind";
 import styles from './Main.module.scss';
 
@@ -11,7 +11,7 @@ function Main() {
     <div className={cx('main-layout')}>
         <Title/>
         <Search/>
-        <Emojis/>
+        <EmojiList/>
     </div> );
 }
 
